@@ -1,0 +1,12 @@
+NOTES.*
+*.pyc
+*~
+dist
+build
+.pypirc
+deploy.sh
+.DS_Store
+pyenv
+LIWC
+LIWC.tgz
+node_modules

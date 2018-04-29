@@ -1,0 +1,4 @@
+Sphinx
+numpy
+datrie
+marisa_trie
