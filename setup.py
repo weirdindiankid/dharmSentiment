@@ -18,7 +18,7 @@ setup(
     author = 'Dharmesh Tarapore',
     author_email = 'dharmesh@cs.bu.edu',
     url = 'https://github.com/weirdindiankid/dharmSentiment', 
-    download_url = 'https://github.com/weirdindiankid/dharmSentiment/archive/v2.8.4.tar.gz',
+    download_url = 'https://github.com/weirdindiankid/dharmSentiment/archive/v1.0.0.tar.gz',
     keywords = [],
     classifiers = ['Development Status :: 4 - Beta',
                    'Programming Language :: Python'],
