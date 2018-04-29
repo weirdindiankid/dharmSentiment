@@ -328,6 +328,7 @@ class LabMT(sentiDict):
     Now takes the full name of the language."""
     # short title
     title = 'labMT'
+    corpus = 'labMT'
     # long title
     note = 'language assessment by Mechanical Turk'
     construction_note = "Survey: MT, 50 ratings"

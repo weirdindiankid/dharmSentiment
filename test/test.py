@@ -29,10 +29,10 @@ def storyLab_labMT_english():
     assert labMTwordList[index] == 'test'
     assert labMTvector[index] == 4.06
     
-    f = codecs.open("examples/data/18.01.14.txt", "r", "utf8")
+    f = codecs.open("../examples/data/18.01.14.txt", "r", "utf8")
     ref_text_raw = f.read()
     f.close()
-    f = codecs.open("examples/data/21.01.14.txt", "r", "utf8")
+    f = codecs.open("../examples/data/21.01.14.txt", "r", "utf8")
     comp_text_raw = f.read()
     f.close()
     
@@ -197,9 +197,86 @@ def open_codecs_dictify(file):
             test_dict[word] = 1        
     return test_dict
 
+def my_test_speedy(my_senti_dict,my_senti_marisa,test_dict):
+    """Speedy test."""
+
+    # lang = "english"
+    # dictionary = "LabMT"
+    print("loading {0}".format(my_senti_dict.title))
+    
+    dict_score = my_senti_dict.score(test_dict)
+    dict_word_vec = my_senti_dict.wordVecify(test_dict)
+    
+    marisa_score = my_senti_marisa.score(test_dict)
+    marisa_word_vec = my_senti_marisa.wordVecify(test_dict)
+
+    print(dict_score)
+    print(marisa_score)
+    if not my_senti_dict.stems:
+        assert abs(dict_score-marisa_score) < TOL
+        diff = dict_word_vec - marisa_word_vec
+        print(dict_word_vec,marisa_word_vec)
+        print(my_senti_dict.fixedwords[0])
+        print(my_senti_marisa.fixedwords[0])
+        print(len(my_senti_dict.stemwords))
+        print(len(my_senti_marisa.stemwords))
+        assert (dict_word_vec == marisa_word_vec).all()
+    else:
+        assert len(dict_word_vec) == len(marisa_word_vec)
+        print(dict_word_vec,marisa_word_vec)
+        print(my_senti_dict.fixedwords[0])
+        print(my_senti_marisa.fixedwords[0])
+        print(my_senti_dict.stemwords[0])
+        print(my_senti_marisa.stemwords[0])
+
+    # check that they all match happy
+    if my_senti_marisa.matcherTrieBool("happy"):
+        print("happy is in the list")
+    else:
+        print("happy is *NOT* in the list")
+
+    # let's find the index of the word happy in each
+    # this is really a word-by-word test, because
+    # of the stem matching
+    word = u"happy"
+    happy_dict = {word: 1}
+    happy_vec = my_senti_marisa.wordVecify(happy_dict)
+    assert sum(happy_vec) == 1
+    index = list(happy_vec).index(1)
+    print("index of the happy match: {0}".format(index))
+    # 3,30,222,2221,2818,5614    
+    print("length of fixed words: {0}".format(len(my_senti_marisa.fixedwords)))
+
+    word = u"abide"
+    print("checking on {0}".format(word))
+    happy_dict = {word: 1}
+    happy_vec = my_senti_marisa.wordVecify(happy_dict)
+    if my_senti_marisa.matcherTrieBool(word):
+        my_index = list(happy_vec).index(1)
+        print(my_index)
+        print(marisa_word_vec[my_index])
+        print("the dude abides!")
+    
+    print("count in test text: {0}".format(marisa_word_vec[index]))
+    print(test_dict["happy"])
+    print(test_dict["happyy"])
+    print(test_dict["happyyy"])
+
+    # checked that no dictionaries match anything beyond happy in the stems
+    # so, they must match it fixed
+    # => check it right against the straight count
+    assert test_dict["happy"] == marisa_word_vec[index]
+
+    if index > len(my_senti_marisa.fixedwords):
+        print("matched by a stem")
+        print(my_senti_marisa.stemwords[index-len(my_senti_marisa.fixedwords)])
+    else:
+        print("matched by a fixed word")
+        print(my_senti_marisa.fixedwords[index])
+
 def speedy_dict_marisa_test_all():
-    ref_dict = open_codecs_dictify("examples/data/18.01.14.txt")
-    comp_dict = open_codecs_dictify("examples/data/21.01.14.txt")
+    ref_dict = open_codecs_dictify("../examples/data/18.01.14.txt")
+    comp_dict = open_codecs_dictify("../examples/data/21.01.14.txt")
 
     # this test the loading for each
     senti_dicts = [LabMT(),ANEW()]
@@ -422,7 +499,7 @@ def all_features(rawtext,uid,tweet_id,gram_id):
     return result
     
 def all_features_test():
-    f = codecs.open("test/example-tweets.json" ,"r", "utf8")
+    f = codecs.open("./example-tweets.json" ,"r", "utf8")
     i = 0
     for line in f:
         tweet = loads(line)
