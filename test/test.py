@@ -202,8 +202,8 @@ def speedy_dict_marisa_test_all():
     comp_dict = open_codecs_dictify("examples/data/21.01.14.txt")
 
     # this test the loading for each
-    senti_dicts = [LabMT(),ANEW(),LIWC(),MPQA(),Liu(),WK(),]
-    senti_marisas = [LabMT(datastructure="marisatrie"),ANEW(datastructure="marisatrie"),LIWC(datastructure="marisatrie"),MPQA(datastructure="marisatrie"),Liu(datastructure="marisatrie"),WK(datastructure="marisatrie"),]
+    senti_dicts = [LabMT(),ANEW()]
+    senti_marisas = [LabMT(datastructure="marisatrie"),ANEW(datastructure="marisatrie")]
     stopVal = 1.0
     for senti_dict,senti_marisa in zip(senti_dicts,senti_marisas):
         
@@ -361,8 +361,8 @@ def LIWC_other_features():
     for value in values:
         print("LIWC_{0}".format(value[1]))
 
-my_LIWC_stopped = LIWC(stopVal=0.5)
-my_LIWC = LIWC()
+# my_LIWC_stopped = LIWC(stopVal=0.5)
+# my_LIWC = LIWC()
 my_LabMT = LabMT(stopVal=1.0)
 my_ANEW = ANEW(stopVal=1.0)
 def all_features(rawtext,uid,tweet_id,gram_id):
@@ -444,3 +444,5 @@ def all_features_test():
     #     gram_features = all_features(gram['text'],gram['user']['id'],-1,gram['id'])
     # f.close()
 
+if __name__ == "__main__":
+    speedy_dict_marisa_test_all()

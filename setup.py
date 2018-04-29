@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-with open('README.txt') as file:
+with open('README.markdown') as file:
     long_description = file.read()
 
 setup(
