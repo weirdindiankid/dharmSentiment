@@ -378,6 +378,7 @@ class ANEW(sentiDict):
     """ANEW class."""
 
     title = 'ANEW'
+    corpus = 'ANEW'
     note = 'Affective Norms of English Words'
     construction_note = "Survey: FSU Psych 101"
     license = "Free for research"
