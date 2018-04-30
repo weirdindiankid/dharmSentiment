@@ -1,11 +1,9 @@
-# speedy.py
-# a mostly futile attempt to speed up the sentiment analysis of text using
+# File: speedy.py
+# Author: Dharmesh Tarapore <dharmesh@cs.bu.edu>
+# Description: Repurposed labMTsimple to work with Mongo collectionss.
+
+# This is a mostly futile attempt to speed up the sentiment analysis of text using
 # dictionary-based approach
-
-# now runs inside of labMTsimple
-
-# future upgrade: subclass each of the different dictionaries
-# then pull in all of the storyLab functions!
 
 # most of these dependencies I don't need, so I've commented them out
 # import re
