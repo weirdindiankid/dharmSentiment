@@ -14,11 +14,11 @@ if __name__ == '__main__':
   print(labMTwordList[0:5])
   
   ## test shift a subsample of two twitter days
-  f = codecs.open("data/18.01.14.txt","r","utf8")
+  f = codecs.open("data/summer.txt","r","utf8")
   saturday = f.read()
   f.close()
   
-  f = codecs.open("data/21.01.14.txt","r","utf8")
+  f = codecs.open("data/winter.txt","r","utf8")
   tuesday = f.read()
   f.close()
   

@@ -6,6 +6,8 @@ import subprocess
 import codecs
 from json import loads
 from jinja2 import Template
+import jan
+import sep
 
 # this has some useful functions
 # sys.path.append("/Users/andyreagan/tools/python/")
@@ -275,8 +277,8 @@ def my_test_speedy(my_senti_dict,my_senti_marisa,test_dict):
         print(my_senti_marisa.fixedwords[index])
 
 def speedy_dict_marisa_test_all():
-    ref_dict = open_codecs_dictify("../examples/data/18.01.14.txt")
-    comp_dict = open_codecs_dictify("../examples/data/21.01.14.txt")
+    ref_dict = open_codecs_dictify("jan.txt") #("../examples/data/18.01.14.txt")
+    comp_dict = open_codecs_dictify("sep.txt") #("../examples/data/21.01.14.txt")
 
     # this test the loading for each
     senti_dicts = [LabMT(),ANEW()]
@@ -284,16 +286,21 @@ def speedy_dict_marisa_test_all():
     stopVal = 1.0
     for senti_dict,senti_marisa in zip(senti_dicts,senti_marisas):
         
-        my_test_speedy(senti_dict,senti_marisa,ref_dict)
+        #my_test_speedy(senti_dict,senti_marisa,ref_dict)
 
         # build it out here
         ref_word_vec = senti_marisa.wordVecify(ref_dict)
         ref_word_vec_stopped = senti_marisa.stopper(ref_word_vec,stopVal=stopVal)
         comp_word_vec = senti_marisa.wordVecify(comp_dict)
         comp_word_vec_stopped = senti_marisa.stopper(comp_word_vec,stopVal=stopVal)        
-        shiftHtml(senti_marisa.scorelist, senti_marisa.wordlist, ref_word_vec_stopped, comp_word_vec_stopped, "test-shift-{0}.html".format(senti_dict.title),corpus=senti_marisa.corpus)
+        shiftHtml(senti_marisa.scorelist, senti_marisa.wordlist,
+            ref_word_vec_stopped, comp_word_vec_stopped,
+            "test-shift-{0}.html".format(senti_dict.title),corpus=senti_marisa.corpus)
 
-        shiftHtml(senti_marisa.scorelist, senti_marisa.wordlist, ref_word_vec, comp_word_vec, "test-shift-titles.html".format(senti_dict.title),customTitle=True,title="Insert title here",ref_name="bananas",comp_name="apples")
+        shiftHtml(senti_marisa.scorelist, senti_marisa.wordlist,
+            ref_word_vec, comp_word_vec,
+            "test-shift-titles.html".format(senti_dict.title),customTitle=True,
+            title="Insert title here",ref_name="bananas",comp_name="apples")
 
 def load_26():
     all_sentiment_dictionaries = [LabMT(),ANEW(),LIWC01(),LIWC07(),LIWC15(),MPQA(),OL(),WK(),PANASX(),Pattern(),SentiWordNet(),AFINN(),GI(),WDAL(),EmoLex(),Sent140Lex(),SOCAL(),SenticNet(),Emoticons(),SentiStrength(),VADER(),Umigon(),USent(),EmoSenticNet()]

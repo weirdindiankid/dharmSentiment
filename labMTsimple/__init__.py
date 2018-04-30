@@ -1,2 +1,0 @@
-all = ['storyLab','speedy',]
-

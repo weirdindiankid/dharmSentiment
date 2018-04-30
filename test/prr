@@ -1,0 +1,488 @@
+    1   0.000000 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2309, FN=0, Flags=........C, SSID=Broadcast
+    2   0.011110 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2310, FN=0, Flags=........C, SSID=Broadcast
+    3   0.300109 1c:36:0c:17:50:45 → a1:35:c9:1e:e0:be 802.11 57 Probe Request, SN=1104, FN=11, Flags=.pmP.MF..
+    4   0.488305 8f:b0:fd:dc:f8:6c → 20:3a:6e:79:81:e8 802.11 291 Probe Request, SN=2661, FN=6, Flags=opm.RMFT.
+    5   0.979725 25:f4:d0:39:40:56 → 27:86:3a:2a:a4:d9 802.11 164 Probe Request, SN=2238, FN=0, Flags=opmPRM...
+    6   1.558401              →              802.11 39 Probe Request[Malformed Packet]
+    7   1.705925 Apple_c0:8b:3a → Broadcast    802.11 171 Probe Request, SN=320, FN=0, Flags=........C, SSID=BU (802.1x)
+    8   1.716159 Apple_c0:8b:3a → Broadcast    802.11 171 Probe Request, SN=321, FN=0, Flags=........C, SSID=BU (802.1x)
+    9   1.747196 Apple_3f:9c:b8 → Broadcast    802.11 117 Probe Request, SN=2791, FN=0, Flags=........C, SSID=Broadcast
+   10   1.784326 Apple_3f:9c:b8 → Broadcast    802.11 117 Probe Request, SN=2792, FN=0, Flags=........C, SSID=Broadcast
+   11   3.008516 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2394, FN=0, Flags=........C, SSID=Broadcast
+   12   3.018595 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2395, FN=0, Flags=........C, SSID=Broadcast
+   13   3.194119 Apple_25:32:38 → Broadcast    802.11 130 Probe Request, SN=495, FN=0, Flags=........C, SSID=Broadcast
+   14   3.547713              →              802.11 39 Probe Request[Malformed Packet]
+   15   4.240570 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3456, FN=0, Flags=........C, SSID=BU (802.1x)
+   16   4.245914 SamsungE_2d:5d:02 → Broadcast    802.11 93 Probe Request, SN=2182, FN=15, Flags=op.......
+   17   4.251898 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3457, FN=0, Flags=........C, SSID=BU (802.1x)
+   18   6.061114 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2479, FN=0, Flags=........C, SSID=Broadcast
+   19   6.071897 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2480, FN=0, Flags=........C, SSID=Broadcast
+   20   6.985677              →              802.11 39 Probe Request[Malformed Packet]
+   21   7.853020 b9:5c:57:bc:74:14 → 28:ff:5f:20:e4:e5 802.11 160 Probe Request, SN=961, FN=15, Flags=o.mPR.FT., SSID=Z\357\277\275\357\277\275w`\357\277\275\357\277\275\357\277\2756c[Malformed Packet]
+   22   8.453100 Apple_68:62:6f → Broadcast    802.11 169 Probe Request, SN=3918, FN=0, Flags=........C, SSID=BU (802.1x)
+   23   8.464621 Apple_68:62:6f → Broadcast    802.11 169 Probe Request, SN=3919, FN=0, Flags=........C, SSID=BU (802.1x)
+   24   8.588832 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=3558, FN=0, Flags=........C, SSID=Broadcast
+   25   8.611013 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=3559, FN=0, Flags=........C, SSID=Broadcast
+   26   8.649236 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=3561, FN=0, Flags=........., SSID=Broadcast
+   27   9.036270 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2564, FN=0, Flags=........C, SSID=Broadcast
+   28   9.046414 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2565, FN=0, Flags=........C, SSID=Broadcast
+   29  10.200066 28:3e:5e:e9:cc:9c → 33:36:11:1d:0b:4d 802.11 166 Probe Request, SN=3494, FN=0, Flags=o.m.R....[Malformed Packet]
+   30  11.797315 MurataMa_1c:bc:06 → Broadcast    802.11 186 Probe Request, SN=2165, FN=0, Flags=........C, SSID=BU (802.1x)
+   31  11.873310 6a:fe:f6:6b:2c:9b → Broadcast    802.11 160 Probe Request, SN=3074, FN=0, Flags=........C, SSID=Broadcast
+   32  13.000882 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2649, FN=0, Flags=........C, SSID=Broadcast
+   33  13.011072 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2650, FN=0, Flags=........C, SSID=Broadcast
+   34  13.024858 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2651, FN=0, Flags=........C, SSID=Broadcast
+   35  13.628990 Apple_77:57:6e → Broadcast    802.11 117 Probe Request, SN=3783, FN=0, Flags=........C, SSID=Broadcast
+   36  13.738246 56:74:55:3e:72:ca → Broadcast    802.11 124 Probe Request, SN=1232, FN=0, Flags=........C, SSID=BU (802.1x)
+   37  13.740465 56:74:55:3e:72:ca → Broadcast    802.11 113 Probe Request, SN=1233, FN=0, Flags=........C, SSID=Broadcast
+   38  14.077625 8e:f8:0a:ca:bd:62 → f1:1b:f9:1d:dc:ec 802.11 45 Probe Request[Malformed Packet]
+   39  14.653219 Apple_e8:51:4d → Broadcast    802.11 167 Probe Request, SN=2018, FN=0, Flags=........C, SSID=BU (802.1x)
+   40  15.318091 2f:f8:f4:42:60:c7 → 64:e9:d5:3f:18:02 802.11 166 Probe Request, SN=3013, FN=2, Flags=.pmP...T.
+   41  15.978602 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2734, FN=0, Flags=........C, SSID=Broadcast
+   42  15.988326 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2735, FN=0, Flags=........C, SSID=Broadcast
+   43  16.731227 2c:c3:47:e9:70:6c → dc:6b:05:53:18:25 802.11 160 Probe Request, SN=438, FN=2, Flags=.p.PRMFT.
+   44  17.393914 26:bb:80:a6:34:bd → 08:fb:9c:ac:9b:d3 802.11 45 Probe Request[Malformed Packet]
+   45  17.591404 dc:06:6c:24:7f:9b → ed:5b:7d:06:a2:a6 802.11 161 Probe Request, SN=201, FN=7, Flags=.pm.RM...
+   46  17.892494 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=3656, FN=0, Flags=........C, SSID=Broadcast
+   47  17.915282 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=3657, FN=0, Flags=........C, SSID=Broadcast
+   48  18.924669 10:70:e1:6f:fa:e8 → c7:3e:fe:ff:ff:ff 802.11 160 Probe Request, SN=3064, FN=9, Flags=opm.RMFT.
+   49  19.065452 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2819, FN=0, Flags=........C, SSID=Broadcast
+   50  19.076337 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2820, FN=0, Flags=........C, SSID=Broadcast
+   51  19.255642 Apple_f3:6e:6a → Broadcast    802.11 167 Probe Request, SN=3812, FN=0, Flags=........C, SSID=eduroam
+   52  19.266247 Apple_f3:6e:6a → Broadcast    802.11 167 Probe Request, SN=3813, FN=0, Flags=........C, SSID=eduroam
+   53  20.440635 Apple_67:79:d8 → Broadcast    802.11 160 Probe Request, SN=14, FN=0, Flags=........C, SSID=Broadcast
+   54  22.057647 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2904, FN=0, Flags=........C, SSID=Broadcast
+   55  22.067719 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2905, FN=0, Flags=........C, SSID=Broadcast
+   56  23.809006 HuaweiTe_b0:59:64 → Broadcast    802.11 139 Probe Request, SN=2348, FN=0, Flags=........C, SSID=BU (802.1x)
+   57  23.819660 HuaweiTe_b0:59:64 → Broadcast    802.11 139 Probe Request, SN=2349, FN=0, Flags=........C, SSID=BU (802.1x)
+   58  24.011198 HuaweiTe_85:a3:a7 → Broadcast    802.11 145 Probe Request, SN=3885, FN=0, Flags=........C, SSID=Broadcast
+   59  24.031409 HuaweiTe_85:a3:a7 → Broadcast    802.11 145 Probe Request, SN=3886, FN=0, Flags=........C, SSID=Broadcast
+   60  24.755940 Apple_c7:0c:d4 → Broadcast    802.11 171 Probe Request, SN=2056, FN=0, Flags=........C, SSID=BU (802.1x)
+   61  26.001718 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2989, FN=0, Flags=........C, SSID=Broadcast
+   62  26.012601 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=2990, FN=0, Flags=........C, SSID=Broadcast
+   63  26.153369 Apple_eb:92:c3 → Broadcast    802.11 169 Probe Request, SN=1803, FN=0, Flags=........., SSID=BU (802.1x)
+   64  26.173594 Apple_eb:92:c3 → Broadcast    802.11 169 Probe Request, SN=1804, FN=0, Flags=........C, SSID=BU (802.1x)
+   65  26.232070 5a:2b:7c:a4:4f:da → d7:28:7e:59:b7:85 802.11 169 Probe Request, SN=2970, FN=12, Flags=.p.....T.
+   66  26.492931 HonHaiPr_05:aa:c7 → Broadcast    802.11 76 Probe Request, SN=1614, FN=0, Flags=........C, SSID=BU (802.1x)
+   67  26.535819              →              802.11 39 Probe Request[Malformed Packet]
+   68  26.887375 10:ec:11:d4:8d:9e → Broadcast    802.11 161 Fragmented IEEE 802.11 frame
+   69  28.884562 a2:56:f2:1c:c9:c6 → Broadcast    802.11 76 Probe Request, SN=3937, FN=0, Flags=........C, SSID=BU (802.1x)
+   70  28.884653 a2:56:f2:1c:c9:c6 → Broadcast    802.11 78 Probe Request, SN=3938, FN=0, Flags=........C, SSID=WIFIFED09D-5G
+   71  28.884763 a2:56:f2:1c:c9:c6 → Broadcast    802.11 75 Probe Request, SN=3939, FN=0, Flags=........C, SSID=WIFIFED09D
+   72  28.884973 a2:56:f2:1c:c9:c6 → Broadcast    802.11 91 Probe Request, SN=3940, FN=0, Flags=........C, SSID=DEN Airport Free WiFi 2.4G
+   73  28.885067 a2:56:f2:1c:c9:c6 → Broadcast    802.11 73 Probe Request, SN=3941, FN=0, Flags=........C, SSID=NEU-bros
+   74  28.885239 a2:56:f2:1c:c9:c6 → Broadcast    802.11 76 Probe Request, SN=3942, FN=0, Flags=........C, SSID=Apple Store
+   75  28.885340 a2:56:f2:1c:c9:c6 → Broadcast    802.11 75 Probe Request, SN=3943, FN=0, Flags=........C, SSID=FiOS-2KP6O
+   76  28.885469 a2:56:f2:1c:c9:c6 → Broadcast    802.11 79 Probe Request, SN=3944, FN=0, Flags=........C, SSID=Homeless buddy
+   77  28.885607 a2:56:f2:1c:c9:c6 → Broadcast    802.11 82 Probe Request, SN=3945, FN=0, Flags=........C, SSID=HUAWEI Mate 9 Pro
+   78  28.885733 a2:56:f2:1c:c9:c6 → Broadcast    802.11 75 Probe Request, SN=3946, FN=0, Flags=........C, SSID=Free Wi-Fi
+   79  28.885876 a2:56:f2:1c:c9:c6 → Broadcast    802.11 70 Probe Request, SN=3947, FN=0, Flags=........C, SSID=1#206
+   80  28.886015 a2:56:f2:1c:c9:c6 → Broadcast    802.11 83 Probe Request, SN=3948, FN=0, Flags=........C, SSID=16\357\277\275\357\277\275\357\277\275\357\277\275\357\277\275\357
+   81  28.886135 a2:56:f2:1c:c9:c6 → Broadcast    802.11 69 Probe Request, SN=3949, FN=0, Flags=........C, SSID=3001
+   82  28.886456 a2:56:f2:1c:c9:c6 → Broadcast    802.11 69 Probe Request, SN=3950, FN=0, Flags=........C, SSID=8208
+   83  28.886581 a2:56:f2:1c:c9:c6 → Broadcast    802.11 69 Probe Request, SN=3951, FN=0, Flags=........C, SSID=8505
+   84  28.886711 a2:56:f2:1c:c9:c6 → Broadcast    802.11 75 Probe Request, SN=3952, FN=0, Flags=........C, SSID=Apple Demo
+   85  28.905064 a2:56:f2:1c:c9:c6 → Broadcast    802.11 76 Probe Request, SN=3953, FN=0, Flags=........C, SSID=BU (802.1x)
+   86  28.905074 a2:56:f2:1c:c9:c6 → Broadcast    802.11 78 Probe Request, SN=3954, FN=0, Flags=........C, SSID=WIFIFED09D-5G
+   87  28.905207 a2:56:f2:1c:c9:c6 → Broadcast    802.11 75 Probe Request, SN=3955, FN=0, Flags=........C, SSID=WIFIFED09D
+   88  28.905405 a2:56:f2:1c:c9:c6 → Broadcast    802.11 91 Probe Request, SN=3956, FN=0, Flags=........C, SSID=DEN Airport Free WiFi 2.4G
+   89  28.905454 a2:56:f2:1c:c9:c6 → Broadcast    802.11 73 Probe Request, SN=3957, FN=0, Flags=........C, SSID=NEU-bros
+   90  28.905614 a2:56:f2:1c:c9:c6 → Broadcast    802.11 76 Probe Request, SN=3958, FN=0, Flags=........C, SSID=Apple Store
+   91  28.905737 a2:56:f2:1c:c9:c6 → Broadcast    802.11 75 Probe Request, SN=3959, FN=0, Flags=........C, SSID=FiOS-2KP6O
+   92  28.905870 a2:56:f2:1c:c9:c6 → Broadcast    802.11 79 Probe Request, SN=3960, FN=0, Flags=........C, SSID=Homeless buddy
+   93  28.906003 a2:56:f2:1c:c9:c6 → Broadcast    802.11 82 Probe Request, SN=3961, FN=0, Flags=........C, SSID=HUAWEI Mate 9 Pro
+   94  28.906129 a2:56:f2:1c:c9:c6 → Broadcast    802.11 75 Probe Request, SN=3962, FN=0, Flags=........C, SSID=Free Wi-Fi
+   95  28.906249 a2:56:f2:1c:c9:c6 → Broadcast    802.11 70 Probe Request, SN=3963, FN=0, Flags=........C, SSID=1#206
+   96  28.906388 a2:56:f2:1c:c9:c6 → Broadcast    802.11 83 Probe Request, SN=3964, FN=0, Flags=........C, SSID=16\357\277\275\357\277\275\357\277\275\357\277\275\357\277\275\357
+   97  28.906520 a2:56:f2:1c:c9:c6 → Broadcast    802.11 69 Probe Request, SN=3965, FN=0, Flags=........C, SSID=3001
+   98  28.906637 a2:56:f2:1c:c9:c6 → Broadcast    802.11 69 Probe Request, SN=3966, FN=0, Flags=........C, SSID=8208
+   99  28.906756 a2:56:f2:1c:c9:c6 → Broadcast    802.11 69 Probe Request, SN=3967, FN=0, Flags=........C, SSID=8505
+  100  28.906890 a2:56:f2:1c:c9:c6 → Broadcast    802.11 75 Probe Request, SN=3968, FN=0, Flags=........C, SSID=Apple Demo
+  101  28.992161 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3072, FN=0, Flags=........C, SSID=Broadcast
+  102  29.003059 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3073, FN=0, Flags=........C, SSID=Broadcast
+  103  29.225080 Apple_68:62:6f → Broadcast    802.11 169 Probe Request, SN=3971, FN=0, Flags=........C, SSID=BU (802.1x)
+  104  29.235248 Apple_68:62:6f → Broadcast    802.11 169 Probe Request, SN=3972, FN=0, Flags=........C, SSID=BU (802.1x)
+  105  30.003158 c7:54:0a:99:fd:12 → ff:ff:ff:ff:ff:0c 802.11 65 Probe Request, SN=1689, FN=0, Flags=........., SSID=Broadcast
+  106  30.543184 5c:7c:db:7c:53:61 → 50:d2:e8:b3:03:e3 802.11 161 Probe Request, SN=2010, FN=2, Flags=op..R....
+  107  30.672164 0d:0c:5e:59:cf:73 → c0:e3:dd:bb:0c:ac 802.11 166 Fragmented IEEE 802.11 frame
+  108  31.876528 7e:1e:dc:f7:1e:f3 → Broadcast    802.11 130 Probe Request, SN=65, FN=0, Flags=........C, SSID=Broadcast
+  109  31.933253 7e:1e:dc:f7:1e:f3 → Broadcast    802.11 130 Probe Request, SN=66, FN=0, Flags=........C, SSID=Broadcast
+  110  31.957664 IntelCor_24:e2:5d → Broadcast    802.11 93 Probe Request, SN=368, FN=0, Flags=........C, SSID=Broadcast
+  111  32.057528 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3157, FN=0, Flags=........C, SSID=Broadcast
+  112  32.068510 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3158, FN=0, Flags=........C, SSID=Broadcast
+  113  32.316813 Apple_20:26:1b → Broadcast    802.11 130 Probe Request, SN=3051, FN=0, Flags=........C, SSID=Broadcast
+  114  32.392809 Apple_31:d2:e6 → Broadcast    802.11 141 Probe Request, SN=67, FN=0, Flags=........C, SSID=BU (802.1x)
+  115  32.431986 Apple_31:d2:e6 → Broadcast    802.11 141 Probe Request, SN=68, FN=0, Flags=........C, SSID=BU (802.1x)
+  116  32.881467 0d:3a:d5:5b:bd:2f → d4:81:51:80:9b:31 802.11 45 Probe Request[Malformed Packet]
+  117  32.882319 Google_e5:d9:85 → Broadcast    802.11 128 Probe Request, SN=1455, FN=0, Flags=........C, SSID=Broadcast
+  118  32.900450 Google_e5:d9:85 → Broadcast    802.11 128 Probe Request, SN=1456, FN=0, Flags=........C, SSID=Broadcast
+  119  32.920493 Google_e5:d9:85 → Broadcast    802.11 128 Probe Request, SN=1457, FN=0, Flags=........C, SSID=Broadcast
+  120  32.935118 Apple_90:82:c6 → Broadcast    802.11 171 Probe Request, SN=1554, FN=0, Flags=........C, SSID=BU (802.1x)
+  121  33.059602 Apple_eb:92:c3 → Broadcast    802.11 169 Probe Request, SN=1821, FN=0, Flags=........C, SSID=BU (802.1x)
+  122  33.079846 Apple_eb:92:c3 → Broadcast    802.11 169 Probe Request, SN=1822, FN=0, Flags=........C, SSID=BU (802.1x)
+  123  33.129805 68:dd:9c:8c:58:bb → 14:9d:c2:5e:52:73 802.11 160 Probe Request, SN=2360, FN=14, Flags=o...R.FT.
+  124  34.359540 Apple_31:d2:e6 → Broadcast    802.11 130 Probe Request, SN=107, FN=0, Flags=........C, SSID=Broadcast
+  125  34.398402 Apple_31:d2:e6 → Broadcast    802.11 130 Probe Request, SN=108, FN=0, Flags=........C, SSID=Broadcast
+  126  34.481029 SamsungE_c1:69:18 → Broadcast    802.11 175 Probe Request, SN=1883, FN=0, Flags=........C, SSID=Broadcast
+  127  34.481142 SamsungE_c1:69:18 → Broadcast    802.11 182 Probe Request, SN=1884, FN=0, Flags=........., SSID=attwifi[Malformed Packet]
+  128  34.501343 SamsungE_c1:69:18 → Broadcast    802.11 175 Probe Request, SN=1885, FN=0, Flags=........., SSID=Broadcast
+  129  34.603015 Apple_26:8e:84 → Broadcast    802.11 171 Probe Request, SN=142, FN=0, Flags=........C, SSID=BU (802.1x)
+  130  34.613229 Apple_26:8e:84 → Broadcast    802.11 171 Probe Request, SN=143, FN=0, Flags=........C, SSID=BU (802.1x)
+  131  34.763289 Apple_25:32:38 → Broadcast    802.11 130 Probe Request, SN=647, FN=0, Flags=........C, SSID=Broadcast
+  132  35.001423 Apple_d4:c3:16 → Broadcast    802.11 171 Probe Request, SN=2793, FN=0, Flags=........C, SSID=BU (802.1x)
+  133  35.012091 Apple_d4:c3:16 → Broadcast    802.11 171 Probe Request, SN=2794, FN=0, Flags=........C, SSID=BU (802.1x)
+  134  35.037547 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3242, FN=0, Flags=........C, SSID=Broadcast
+  135  35.706519 Apple_31:d2:e6 → Broadcast    802.11 130 Probe Request, SN=125, FN=0, Flags=........., SSID=Broadcast
+  136  35.721616 Apple_53:1c:6e → Broadcast    802.11 167 Probe Request, SN=2509, FN=0, Flags=........., SSID=BU\357\277\275`802.1
+  137  35.940458 Apple_61:28:8c → Broadcast    802.11 184 Probe Request, SN=163, FN=0, Flags=........C, SSID=BU (802.1x)
+  138  36.438166              →              802.11 39 Probe Request[Malformed Packet]
+  139  36.489171 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=3844, FN=0, Flags=........C, SSID=Broadcast
+  140  37.227896 c7:a2:da:62:a9:78 → 19:d1:e4:33:44:88 802.11 161 Fragmented IEEE 802.11 frame
+  141  37.358840 bf:a7:3c:fe:be:11 → 19:90:d5:de:51:3f 802.11 57 Probe Request, SN=3969, FN=13, Flags=o.m.R.FT.[Malformed Packet]
+  142  37.485095 d6:bc:ba:50:82:53 → 15:6a:61:ab:dd:ec 802.11 45 Probe Request[Malformed Packet]
+  143  38.072264 Apple_d1:1f:a9 → Broadcast    802.11 75 Probe Request, SN=1598, FN=0, Flags=........C, SSID=Harper-Net
+  144  38.072274 Apple_d1:1f:a9 → Broadcast    802.11 74 Probe Request, SN=1599, FN=0, Flags=........C, SSID=Privateer
+  145  38.072386 Apple_d1:1f:a9 → Broadcast    802.11 73 Probe Request, SN=1600, FN=0, Flags=........C, SSID=MSWalker
+  146  38.072572 Apple_d1:1f:a9 → Broadcast    802.11 84 Probe Request, SN=1601, FN=0, Flags=........C, SSID=Caf\357\277\275\357\277\275 at Loyal 
+  147  38.072685 Apple_d1:1f:a9 → Broadcast    802.11 84 Probe Request, SN=1602, FN=0, Flags=........C, SSID=Configure.Me-0D0BD0
+  148  38.072825 Apple_d1:1f:a9 → Broadcast    802.11 71 Probe Request, SN=1603, FN=0, Flags=........C, SSID=Fly-Fi
+  149  38.072930 Apple_d1:1f:a9 → Broadcast    802.11 69 Probe Request, SN=1604, FN=0, Flags=........C, SSID=Naia
+  150  38.073064 Apple_d1:1f:a9 → Broadcast    802.11 77 Probe Request, SN=1605, FN=0, Flags=........C, SSID=gogoinflight
+  151  38.073199 Apple_d1:1f:a9 → Broadcast    802.11 80 Probe Request, SN=1606, FN=0, Flags=........., SSID=#VinoVolo Guest
+  152  38.073347 Apple_d1:1f:a9 → Broadcast    802.11 81 Probe Request, SN=1607, FN=0, Flags=........C, SSID=Harper's Network
+  153  38.073644 Apple_d1:1f:a9 → Broadcast    802.11 77 Probe Request, SN=1609, FN=0, Flags=........C, SSID=United_Wi-Fi
+  154  38.074065 Apple_d1:1f:a9 → Broadcast    802.11 71 Probe Request, SN=1612, FN=0, Flags=........C, SSID=Mimo42
+  155  38.074182 5e:b7:b2:1f:fc:b8 → 99:6c:75:6a:e4:67 802.11 73 Probe Request, SN=1085, FN=15, Flags=.pm......
+  156  38.092542 Apple_d1:1f:a9 → Broadcast    802.11 75 Probe Request, SN=1614, FN=0, Flags=........C, SSID=Harper-Net
+  157  38.092551 Apple_d1:1f:a9 → Broadcast    802.11 74 Probe Request, SN=1615, FN=0, Flags=........C, SSID=Privateer
+  158  38.092737 Apple_d1:1f:a9 → Broadcast    802.11 73 Probe Request, SN=1616, FN=0, Flags=........C, SSID=MSWalker
+  159  38.092848 Apple_d1:1f:a9 → Broadcast    802.11 84 Probe Request, SN=1617, FN=0, Flags=........C, SSID=Caf\357\277\275\357\277\275 at Loyal 
+  160  38.092997 Apple_d1:1f:a9 → Broadcast    802.11 84 Probe Request, SN=1618, FN=0, Flags=........C, SSID=Configure.Me-0D0BD0
+  161  38.093101 Apple_d1:1f:a9 → Broadcast    802.11 71 Probe Request, SN=1619, FN=0, Flags=........C, SSID=Fly-Fi
+  162  38.093226 Apple_d1:1f:a9 → Broadcast    802.11 69 Probe Request, SN=1620, FN=0, Flags=........C, SSID=Naia
+  163  38.093372 Apple_d1:1f:a9 → Broadcast    802.11 77 Probe Request, SN=1621, FN=0, Flags=........C, SSID=gogoinflight
+  164  38.093524 Apple_d1:1f:a9 → Broadcast    802.11 80 Probe Request, SN=1622, FN=0, Flags=........C, SSID=#VinoVolo Guest
+  165  38.093671 Apple_d1:1f:a9 → Broadcast    802.11 81 Probe Request, SN=1623, FN=0, Flags=........C, SSID=Harper's Network
+  166  38.093821 Apple_d1:1f:a9 → Broadcast    802.11 74 Probe Request, SN=1624, FN=0, Flags=........C, SSID=MVG-Guest
+  167  38.093953 Apple_d1:1f:a9 → Broadcast    802.11 77 Probe Request, SN=1625, FN=0, Flags=........C, SSID=United_Wi-Fi
+  168  38.094107 Apple_d1:1f:a9 → Broadcast    802.11 80 Probe Request, SN=1626, FN=0, Flags=........C, SSID=CenturyLink1392
+  169  38.094244 Apple_d1:1f:a9 → Broadcast    802.11 80 Probe Request, SN=1627, FN=0, Flags=........C, SSID=Stowe Mtn Lodge
+  170  38.094390 Apple_d1:1f:a9 → Broadcast    802.11 71 Probe Request, SN=1628, FN=0, Flags=........C, SSID=Mimo42
+  171  38.130338 82:cc:45:a6:87:67 → Broadcast    802.11 158 Probe Request, SN=3898, FN=0, Flags=........C, SSID=Broadcast
+  172  38.150631 82:cc:45:a6:87:67 → Broadcast    802.11 158 Probe Request, SN=3900, FN=0, Flags=........C, SSID=Broadcast
+  173  38.991996 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3327, FN=0, Flags=........C, SSID=Broadcast
+  174  39.002070 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3328, FN=0, Flags=........C, SSID=Broadcast
+  175  39.128857 27:1f:a2:3d:62:13 → Cisco_44:c8:8b 802.11 57 Probe Request, SN=2432, FN=0, Flags=o..P..FT.
+  176  39.737250 Apple_d4:c3:16 → Broadcast    802.11 171 Probe Request, SN=2901, FN=0, Flags=........C, SSID=BU (802.1x)
+  177  39.747928 Apple_d4:c3:16 → Broadcast    802.11 171 Probe Request, SN=2902, FN=0, Flags=........C, SSID=BU (802.1x)
+  178  40.410196 Apple_90:82:c6 → Broadcast    802.11 171 Probe Request, SN=1606, FN=0, Flags=........C, SSID=BU (802.1x)
+  179  41.027661 Apple_93:9c:e7 → Broadcast    802.11 167 Probe Request, SN=3034, FN=0, Flags=........C, SSID=BU (802.1x)
+  180  41.037736 Apple_93:9c:e7 → Broadcast    802.11 167 Probe Request, SN=3036, FN=0, Flags=........C, SSID=BU (802.1x)
+  181  41.052227 Apple_93:9c:e7 → Broadcast    802.11 167 Probe Request, SN=3037, FN=0, Flags=........C, SSID=BU (802.1x)
+  182  41.062228 Apple_93:9c:e7 → Broadcast    802.11 167 Probe Request, SN=3038, FN=0, Flags=........C, SSID=BU (802.1x)
+  183  41.637931 Apple_c7:0c:d4 → Broadcast    802.11 171 Probe Request, SN=2085, FN=0, Flags=........C, SSID=BU (802.1x)
+  184  41.799129 Cisco_11:a7:79 → 66:84:e6:06:91:cd 802.11 154 Probe Request, SN=3796, FN=7, Flags=....R....[Malformed Packet]
+  185  41.983006 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3413, FN=0, Flags=........C, SSID=Broadcast
+  186  42.461735 18:a8:a4:53:86:63 → 99:f6:47:6c:6c:3e 802.11 45 Probe Request[Malformed Packet]
+  187  43.052511 41:3e:cb:cd:50:c4 → 2c:7b:b5:7a:f1:71 802.11 160 Probe Request, SN=3995, FN=15, Flags=.pm.R..T.
+  188  43.157581 SamsungE_0c:ce:f3 → Broadcast    802.11 93 Probe Request, SN=1656, FN=0, Flags=........C, SSID=Broadcast
+  189  43.157641 SamsungE_0c:ce:f3 → Broadcast    802.11 93 Probe Request, SN=1657, FN=0, Flags=........C, SSID=Broadcast
+  190  43.206116 f9:63:0b:5b:2f:dd → 3a:1d:b6:66:42:fb 802.11 166 Fragmented IEEE 802.11 frame
+  191  43.964351 Apple_22:51:7a → Broadcast    802.11 130 Probe Request, SN=2862, FN=0, Flags=........C, SSID=Broadcast
+  192  44.002368 Apple_22:51:7a → Broadcast    802.11 130 Probe Request, SN=2863, FN=0, Flags=........C, SSID=Broadcast
+  193  44.176402 9b:d3:62:65:da:49 → a6:32:f7:51:7f:5d 802.11 57 Probe Request, SN=3274, FN=7, Flags=o..P.....[Packet size limited during capture]
+  194  44.330448 94:53:83:e7:f7:db → Broadcast    802.11 76 Probe Request, SN=1132, FN=0, Flags=.........
+  195  45.068464 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3495, FN=0, Flags=........C, SSID=Broadcast
+  196  45.078711 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3496, FN=0, Flags=........C, SSID=Broadcast
+  197  45.296271 f8:ee:7f:f5:fb:19 → 5a:57:b8:b3:d7:04 802.11 57 Probe Request, SN=3979, FN=3, Flags=o..P..FT.
+  198  45.704553              →              802.11 39 Probe Request[Malformed Packet]
+  199  45.814817 Apple_d4:c3:16 → Broadcast    802.11 171 Probe Request, SN=3002, FN=0, Flags=........C, SSID=BU (802.1x)
+  200  45.824470 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=3946, FN=0, Flags=........C, SSID=Broadcast
+  201  45.824997 Apple_d4:c3:16 → Broadcast    802.11 171 Probe Request, SN=3003, FN=0, Flags=........C, SSID=BU (802.1x)
+  202  45.846998 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=3947, FN=0, Flags=........C, SSID=Broadcast
+  203  45.874058 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=3948, FN=0, Flags=........C, SSID=Broadcast
+  204  45.894416 dc:33:40:fb:6a:e3 → c8:f1:30:77:0b:df 802.11 160 Fragmented IEEE 802.11 frame
+  205  46.669351 HuaweiTe_b0:59:64 → Broadcast    802.11 128 Probe Request, SN=2416, FN=0, Flags=........C, SSID=Broadcast
+  206  46.679398 HuaweiTe_b0:59:64 → Broadcast    802.11 128 Probe Request, SN=2417, FN=0, Flags=........C, SSID=Broadcast
+  207  47.039386              →              802.11 39 Probe Request[Malformed Packet]
+  208  47.645504 44:2e:d0:0b:fa:7b → e8:0c:bf:0e:f5:40 802.11 45 Probe Request[Malformed Packet]
+  209  47.721924 Apple_c7:0c:d4 → Broadcast    802.11 171 Probe Request, SN=2190, FN=0, Flags=........C, SSID=BU (802.1x)
+  210  47.804203              →              802.11 39 Probe Request[Malformed Packet]
+  211  48.068337 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3580, FN=0, Flags=........C, SSID=Broadcast
+  212  48.079396 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3581, FN=0, Flags=........C, SSID=Broadcast
+  213  48.471646 05:40:f3:b6:f3:6a → ce:5e:93:e8:f6:ff 802.11 105 Probe Request, SN=588, FN=6, Flags=op.......
+  214  49.340038 3b:ce:73:d9:02:02 → d5:34:6e:e0:f6:ea 802.11 164 Fragmented IEEE 802.11 frame
+  215  49.363295 e6:03:c9:54:e2:f1 → 44:d7:1d:06:ea:ac 802.11 45 Probe Request[Malformed Packet]
+  216  49.423836 Cisco_11:8d:79 → 19:fb:ff:ff:ff:ff 802.11 160 Fragmented IEEE 802.11 frame
+  217  50.376127 ae:2c:30:36:b7:79 → fb:23:df:24:49:57 802.11 57 Probe Request, SN=3690, FN=15, Flags=.p...M...
+  218  50.560981              →              802.11 39 Probe Request[Malformed Packet]
+  219  51.995732 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3665, FN=0, Flags=........C, SSID=Broadcast
+  220  52.006876 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3666, FN=0, Flags=........C, SSID=Broadcast
+  221  52.201133 8f:16:9e:18:46:b2 → 86:c9:de:ba:1b:bf 802.11 174 Fragmented IEEE 802.11 frame
+  222  52.341998 aa:1f:06:2d:46:bc → b3:1e:d5:e6:ee:d5 802.11 45 Probe Request[Malformed Packet]
+  223  52.593297 24:f7:5f:93:9e:9c → fb:63:77:7e:ba:d3 802.11 57 Probe Request, SN=2425, FN=2, Flags=opm....T.[Malformed Packet]
+  224  52.613541 5c:70:ba:92:b3:e6 → 5f:d2:6e:83:c7:e9 802.11 57 Probe Request, SN=2855, FN=9, Flags=o.mP..F..[Packet size limited during capture]
+  225  53.399508 d7:0b:d5:ae:61:80 → 7c:7e:c1:5e:f4:5e 802.11 57 Fragmented IEEE 802.11 frame
+  226  53.417569 65:b5:29:14:5b:4c → f5:0d:f0:50:30:d3 802.11 63 Fragmented IEEE 802.11 frame
+  227  53.580049              →              802.11 39 Probe Request[Malformed Packet]
+  228  53.897226 Apple_31:d2:e6 → Broadcast    802.11 140 Probe Request, SN=251, FN=0, Flags=........C, SSID=WIFIFED09D
+  229  53.897301 Apple_31:d2:e6 → Broadcast    802.11 130 Probe Request, SN=252, FN=0, Flags=........C, SSID=Broadcast
+  230  53.936511 Apple_31:d2:e6 → Broadcast    802.11 140 Probe Request, SN=253, FN=0, Flags=........C, SSID=WIFIFED09D
+  231  53.936600 Apple_31:d2:e6 → Broadcast    802.11 130 Probe Request, SN=254, FN=0, Flags=........C, SSID=Broadcast
+  232  53.998144 17:32:54:b1:18:cc → d9:06:54:b5:bc:cd 802.11 45 Probe Request[Malformed Packet]
+  233  54.976364 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3750, FN=0, Flags=........C, SSID=Broadcast
+  234  54.987248 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3751, FN=0, Flags=........C, SSID=Broadcast
+  235  55.175742 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=4042, FN=0, Flags=........C, SSID=Broadcast
+  236  55.198079 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=4043, FN=0, Flags=........C, SSID=Broadcast
+  237  55.961018 c0:0b:08:4f:e0:78 → f7:88:99:02:53:53 802.11 57 Probe Request, SN=4021, FN=0, Flags=o...R.F..
+  238  56.124986 25:f6:7f:00:44:60 → 7b:b3:c4:8c:d0:a8 802.11 57 Probe Request, SN=3905, FN=3, Flags=op.PR.F..[Malformed Packet]
+  239  56.488857 18:ce:73:f0:6a:ea → e1:49:75:d2:e8:e7 802.11 57 Fragmented IEEE 802.11 frame
+  240  56.666831 d2:0a:65:a5:28:01 → Broadcast    802.11 160 Probe Request, SN=1122, FN=0, Flags=........C, SSID=Broadcast
+  241  56.722194 d2:0a:65:a5:28:01 → Broadcast    802.11 160 Probe Request, SN=1123, FN=0, Flags=........C, SSID=Broadcast
+  242  56.824130 35:28:ee:da:f8:6c → a2:f6:16:d0:e8:94 802.11 57 Fragmented IEEE 802.11 frame
+  243  56.986860 d2:0a:65:a5:28:01 → Broadcast    802.11 160 Probe Request, SN=1124, FN=0, Flags=........C, SSID=Broadcast
+  244  57.001127 Apple_31:d2:e6 → Broadcast    802.11 141 Probe Request, SN=301, FN=0, Flags=........C, SSID=BU (802.1x)
+  245  57.040393 Apple_31:d2:e6 → Broadcast    802.11 141 Probe Request, SN=302, FN=0, Flags=........C, SSID=BU (802.1x)
+  246  57.042293 d2:0a:65:a5:28:01 → Broadcast    802.11 160 Probe Request, SN=1125, FN=0, Flags=........C, SSID=Broadcast
+  247  57.153936              →              802.11 39 Probe Request[Malformed Packet]
+  248  57.308435 Apple_77:c3:d5 → Broadcast    802.11 171 Probe Request, SN=1126, FN=0, Flags=........C, SSID=BU (802.1x)
+  249  57.790394 35:ed:67:0d:7d:d1 → 1d:e7:0a:41:c3:d0 802.11 45 Probe Request[Malformed Packet]
+  250  58.065217 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3834, FN=0, Flags=........C, SSID=Broadcast
+  251  58.075509 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3835, FN=0, Flags=........., SSID=Broadcast[Malformed Packet]
+  252  58.394278 1d:b4:93:78:db:35 → ad:c1:44:15:df:85 802.11 291 Probe Request, SN=3768, FN=7, Flags=...P.....[Malformed Packet]
+  253  58.438750 6a:fe:f6:6b:2c:9b → Broadcast    802.11 160 Probe Request, SN=3096, FN=0, Flags=........C, SSID=Broadcast
+  254  58.560192 c0:10:b8:66:70:27 → 88:0e:5f:4d:6e:6a 802.11 166 Probe Request, SN=3733, FN=5, Flags=.p.P.M...
+  255  58.671421 Apple_bf:f9:63 → Broadcast    802.11 169 Probe Request, SN=3854, FN=0, Flags=........C, SSID=BU (802.1x)
+  256  58.681544 Apple_bf:f9:63 → Broadcast    802.11 169 Probe Request, SN=3855, FN=0, Flags=........C, SSID=BU (802.1x)
+  257  59.156850 Apple_c0:8b:3a → Broadcast    802.11 171 Probe Request, SN=441, FN=0, Flags=........C, SSID=BU (802.1x)
+  258  59.167093 Apple_c0:8b:3a → Broadcast    802.11 171 Probe Request, SN=442, FN=0, Flags=........C, SSID=BU (802.1x)
+  259  59.724125 2b:b1:43:44:51:7c → c1:f6:0a:c3:ed:7b 802.11 57 Fragmented IEEE 802.11 frame
+  260  60.621922 Apple_20:26:1b → Broadcast    802.11 130 Probe Request, SN=3419, FN=0, Flags=........C, SSID=Broadcast
+  261  60.706022 Apple_20:26:1b → Broadcast    802.11 130 Probe Request, SN=3421, FN=0, Flags=........C, SSID=Broadcast
+  262  61.052836 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3918, FN=0, Flags=........C, SSID=Broadcast
+  263  61.062765 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=3919, FN=0, Flags=........C, SSID=Broadcast
+  264  61.697691 Apple_cd:ca:83 → Broadcast    802.11 171 Probe Request, SN=3228, FN=0, Flags=........C, SSID=BU (802.1x)
+  265  61.719853 Apple_cd:ca:83 → Broadcast    802.11 171 Probe Request, SN=3229, FN=0, Flags=........C, SSID=BU (802.1x)
+  266  62.322584 65:36:8a:88:b8:3a → ca:e2:96:c2:69:ea 802.11 105 Fragmented IEEE 802.11 frame
+  267  62.368396 62:21:89:2d:eb:46 → 75:14:1d:d6:cc:40 802.11 45 Probe Request[Malformed Packet]
+  268  62.704711              →              802.11 39 Probe Request[Malformed Packet]
+  269  62.795469 54:fe:54:d8:f8:f4 → 8c:c5:55:cc:2a:24 802.11 57 Probe Request, SN=4095, FN=15, Flags=......FT.[Malformed Packet]
+  270  62.816641              →              802.11 39 Probe Request[Malformed Packet]
+  271  62.842626 2c:fd:f0:cc:50:0b → c3:f5:79:13:b1:e4 802.11 166 Fragmented IEEE 802.11 frame
+  272  63.287141 e5:e8:83:4a:87:72 → 35:b7:55:d3:b2:17 802.11 163 Fragmented IEEE 802.11 frame
+  273  64.169835 ec:20:4a:2c:5c:4a → 03:b4:74:70:60:7f 802.11 55 Probe Request, SN=157, FN=3, Flags=.p..RMF..[Malformed Packet]
+  274  64.277771 30:79:3f:91:7e:a4 → 48:c0:ab:2b:46:c4 802.11 150 Probe Request, SN=3276, FN=6, Flags=.p.PR.FT.
+  275  64.483188 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=41, FN=0, Flags=........C, SSID=Broadcast
+  276  64.505831 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=42, FN=0, Flags=........C, SSID=Broadcast
+  277  64.984711 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=4003, FN=0, Flags=........C, SSID=Broadcast
+  278  65.459667 Apple_67:79:d8 → Broadcast    802.11 160 Probe Request, SN=14, FN=0, Flags=........C, SSID=Broadcast
+  279  66.400395 Apple_25:32:38 → Broadcast    802.11 130 Probe Request, SN=826, FN=0, Flags=........C, SSID=Broadcast
+  280  66.481924 Apple_25:32:38 → Broadcast    802.11 130 Probe Request, SN=828, FN=0, Flags=........C, SSID=Broadcast
+  281  67.588796 Apple_61:28:8c → Broadcast    802.11 184 Probe Request, SN=205, FN=0, Flags=........C, SSID=BU (802.1x)
+  282  67.988830 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=4088, FN=0, Flags=........C, SSID=Broadcast
+  283  67.999835 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=4089, FN=0, Flags=........C, SSID=Broadcast
+  284  69.030439 Apple_dd:0e:d1 → Broadcast    802.11 76 Probe Request, SN=1252, FN=0, Flags=........C, SSID=Tufts_Guest
+  285  69.048222 Apple_dd:0e:d1 → Broadcast    802.11 76 Probe Request, SN=1253, FN=0, Flags=........C, SSID=BU (802.1x)
+  286  69.048237 Apple_dd:0e:d1 → Broadcast    802.11 76 Probe Request, SN=1254, FN=0, Flags=........C, SSID=phspiaguest
+  287  69.048334 Apple_dd:0e:d1 → Broadcast    802.11 72 Probe Request, SN=1255, FN=0, Flags=........C, SSID=eduroam
+  288  69.048593 Apple_dd:0e:d1 → Broadcast    802.11 81 Probe Request, SN=1256, FN=0, Flags=........C, SSID=Google Starbucks
+  289  69.048683 Apple_dd:0e:d1 → Broadcast    802.11 92 Probe Request, SN=1257, FN=0, Flags=........C, SSID=Peter Pan Free Onboard Wifi
+  290  69.048812 Apple_dd:0e:d1 → Broadcast    802.11 74 Probe Request, SN=1258, FN=0, Flags=........C, SSID=SweetHome
+  291  69.049057 Apple_dd:0e:d1 → Broadcast    802.11 70 Probe Request, SN=1260, FN=0, Flags=........C, SSID=dlink
+  292  69.049185 Apple_dd:0e:d1 → Broadcast    802.11 80 Probe Request, SN=1261, FN=0, Flags=........C, SSID=Nathan's iPhone
+  293  69.049331 Apple_dd:0e:d1 → Broadcast    802.11 75 Probe Request, SN=1262, FN=0, Flags=........C, SSID=ARRIS-A542
+  294  69.049463 Apple_dd:0e:d1 → Broadcast    802.11 77 Probe Request, SN=1263, FN=0, Flags=........C, SSID=gogoinflight
+  295  69.049591 Apple_dd:0e:d1 → Broadcast    802.11 69 Probe Request, SN=1264, FN=0, Flags=.........[Packet size limited during capture]
+  296  69.049734 Apple_dd:0e:d1 → Broadcast    802.11 76 Probe Request, SN=1265, FN=0, Flags=........C, SSID=@Hyatt_WiFi
+  297  69.049869 Apple_dd:0e:d1 → Broadcast    802.11 71 Probe Request, SN=1266, FN=0, Flags=........., SSID=PANERA
+  298  69.050019 Apple_dd:0e:d1 → Broadcast    802.11 78 Probe Request, SN=1267, FN=0, Flags=........C, SSID=Macysfreewifi
+  299  69.050153 Apple_dd:0e:d1 → a6:e4:ff:ff:ff:ff 802.11 76 Probe Request, SN=1268, FN=0, Flags=........., SSID=Tufts_Guest
+  300  69.142332 12:99:e9:e5:2c:ec → Broadcast    802.11 158 Probe Request, SN=1636, FN=0, Flags=........C, SSID=Broadcast
+  301  69.162409 12:99:e9:e5:2c:ec → Broadcast    802.11 158 Probe Request, SN=1637, FN=0, Flags=........C, SSID=Broadcast
+  302  70.277098 Apple_cf:7e:e0 → Broadcast    802.11 169 Probe Request, SN=3388, FN=0, Flags=........C, SSID=BU (802.1x)
+  303  70.287443 Apple_cf:7e:e0 → Broadcast    802.11 169 Probe Request, SN=3390, FN=0, Flags=........C, SSID=BU (802.1x)
+  304  70.326144 Apple_cf:7e:e0 → Broadcast    802.11 169 Probe Request, SN=3391, FN=0, Flags=........C, SSID=BU (802.1x)
+  305  70.335177 Apple_cf:7e:e0 → Broadcast    802.11 169 Probe Request, SN=3392, FN=0, Flags=........C, SSID=BU (802.1x)
+  306  70.627184 09:13:4c:e7:db:05 → 5e:2d:70:71:64:5a 802.11 160 Probe Request, SN=2231, FN=9, Flags=op..RMF..
+  307  70.776256              →              802.11 39 Probe Request[Malformed Packet]
+  308  71.065484 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=77, FN=0, Flags=........C, SSID=Broadcast
+  309  71.076319 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=78, FN=0, Flags=........C, SSID=Broadcast
+  310  71.487360 42:71:58:54:1d:77 → 28:3c:8e:5a:77:7f 802.11 161 Probe Request, SN=3657, FN=11, Flags=....R.FT.
+  311  71.601803 5e:98:bf:83:60:2f → c1:86:7a:18:ec:47 802.11 45 Probe Request[Malformed Packet]
+  312  72.423118              →              802.11 39 Probe Request[Malformed Packet]
+  313  73.787674 LiteonTe_c9:c5:57 → Broadcast    802.11 76 Probe Request, SN=134, FN=0, Flags=........C, SSID=BU (802.1x)
+  314  73.847559 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=134, FN=0, Flags=........C, SSID=Broadcast
+  315  73.851848 Apple_3c:fd:ad → Broadcast    802.11 167 Probe Request, SN=3831, FN=0, Flags=........C, SSID=BU (802.1x)
+  316  73.862154 Apple_3c:fd:ad → Broadcast    802.11 167 Probe Request, SN=3832, FN=0, Flags=........C, SSID=BU (802.1x)
+  317  73.932090 Apple_02:0d:01 → Broadcast    802.11 171 Probe Request, SN=2629, FN=0, Flags=........C, SSID=BU (802.1x)
+  318  73.942054 Apple_02:0d:01 → Broadcast    802.11 171 Probe Request, SN=2630, FN=0, Flags=........C, SSID=BU (802.1x)
+  319  74.047688 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=162, FN=0, Flags=........C, SSID=Broadcast
+  320  74.058627 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=163, FN=0, Flags=........C, SSID=Broadcast
+  321  74.693502 Apple_ac:94:90 → Broadcast    802.11 169 Probe Request, SN=2931, FN=0, Flags=........C, SSID=BU (802.1x)
+  322  74.707179 Apple_ac:94:90 → Broadcast    802.11 169 Probe Request, SN=2932, FN=0, Flags=........C, SSID=BU (802.1x)
+  323  74.871149              →              802.11 39 Probe Request[Malformed Packet]
+  324  75.169910 33:9b:89:e1:b0:b9 → a1:85:28:b7:e4:b9 802.11 105 Probe Request, SN=2919, FN=0, Flags=..m.R.FT.[Packet size limited during capture]
+  325  75.427914 76:ce:93:24:1e:09 → 4a:12:85:9b:02:61 802.11 169 Probe Request, SN=3993, FN=5, Flags=op..R....
+  326  77.216628 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3503, FN=0, Flags=........C, SSID=BU (802.1x)
+  327  77.226679 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3504, FN=0, Flags=........C, SSID=BU (802.1x)
+  328  77.772627 8c:77:45:d8:de:eb → 53:69:3c:10:e8:9d 802.11 57 Probe Request, SN=1605, FN=12, Flags=.p.PRM.T.
+  329  77.994856 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=247, FN=0, Flags=........C, SSID=Broadcast
+  330  78.005916 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=248, FN=0, Flags=........C, SSID=Broadcast
+  331  78.380930 3a:a9:24:2a:ca:13 → e7:5c:db:73:20:d6 802.11 161 Probe Request, SN=1906, FN=5, Flags=.p.PRM...
+  332  78.420539 90:32:e0:88:8c:9b → 4d:96:5f:77:70:68 802.11 57 Fragmented IEEE 802.11 frame
+  333  78.527743              →              802.11 39 Probe Request[Malformed Packet]
+  334  78.823245 e3:0f:f7:34:09:44 → f7:30:4a:d0:69:81 802.11 63 Probe Request, SN=3719, FN=9, Flags=o.mP..F..[Malformed Packet]
+  335  79.152192 Apple_cf:7e:e0 → Broadcast    802.11 169 Probe Request, SN=3450, FN=0, Flags=........C, SSID=BU (802.1x)
+  336  79.162346 Apple_cf:7e:e0 → Broadcast    802.11 169 Probe Request, SN=3452, FN=0, Flags=........C, SSID=BU (802.1x)
+  337  79.201533 Apple_cf:7e:e0 → Broadcast    802.11 169 Probe Request, SN=3453, FN=0, Flags=........C, SSID=BU (802.1x)
+  338  79.210629 Apple_cf:7e:e0 → Broadcast    802.11 169 Probe Request, SN=3454, FN=0, Flags=........C, SSID=BU (802.1x)
+  339  79.504988 Apple_97:32:cc → Broadcast    802.11 130 Probe Request, SN=1510, FN=0, Flags=........C, SSID=Broadcast
+  340  79.529127 Apple_97:32:cc → Broadcast    802.11 130 Probe Request, SN=1511, FN=0, Flags=........C, SSID=Broadcast
+  341  79.894662 Apple_f3:6e:6a → Broadcast    802.11 167 Probe Request, SN=2506, FN=1, Flags=.........
+  342  79.916918 Apple_f3:6e:6a → Broadcast    802.11 167 Probe Request, SN=3861, FN=0, Flags=........C, SSID=eduroam
+  343  80.120918 31:b4:9c:32:a5:83 → 7f:fb:97:84:c2:b5 802.11 57 Probe Request, SN=4095, FN=15, Flags=opm......[Malformed Packet]
+  344  80.225902 Apple_f3:6e:6a → Broadcast    802.11 167 Probe Request, SN=3872, FN=0, Flags=........C, SSID=eduroam
+  345  80.248104 Apple_f3:6e:6a → Broadcast    802.11 167 Probe Request, SN=3873, FN=0, Flags=........C, SSID=eduroam
+  346  80.388511 MurataMa_1d:c0:b4 → Broadcast    802.11 175 Probe Request, SN=4016, FN=0, Flags=........C, SSID=Broadcast
+  347  80.990037 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=332, FN=0, Flags=........C, SSID=Broadcast
+  348  81.000976 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=333, FN=0, Flags=........C, SSID=Broadcast
+  349  81.131775              →              802.11 39 Probe Request[Malformed Packet]
+  350  81.546900 Apple_16:92:ce → Broadcast    802.11 165 Probe Request, SN=1596, FN=0, Flags=........C, SSID=eduroam
+  351  81.557172 Apple_16:92:ce → Broadcast    802.11 165 Probe Request, SN=1597, FN=0, Flags=........C, SSID=eduroam
+  352  82.946878              →              802.11 39 Probe Request[Malformed Packet]
+  353  83.042482 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3539, FN=0, Flags=........C, SSID=BU (802.1x)
+  354  83.052673 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3540, FN=0, Flags=........C, SSID=BU (802.1x)
+  355  83.172196 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=231, FN=0, Flags=........C, SSID=Broadcast
+  356  83.195238 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=232, FN=0, Flags=........C, SSID=Broadcast
+  357  83.628079 0c:d5:03:18:8d:ef → 95:e4:f6:ea:b1:3a 802.11 166 Probe Request, SN=784, FN=0, Flags=opm.RMFT.
+  358  83.698612 68:96:47:b0:ed:37 → 5c:7e:e6:12:b0:9d 802.11 57 Probe Request, SN=2969, FN=11, Flags=o...R.F..[Malformed Packet]
+  359  83.710266 d2:98:c5:f6:f8:3f → 8f:48:04:6e:13:18 802.11 45 Probe Request[Malformed Packet]
+  360  83.991835 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=417, FN=0, Flags=........C, SSID=Broadcast
+  361  84.002452 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=418, FN=0, Flags=........C, SSID=Broadcast
+  362  84.415829              →              802.11 39 Probe Request[Malformed Packet]
+  363  84.773469 Apple_20:26:1b → Broadcast    802.11 130 Probe Request, SN=3591, FN=0, Flags=........C, SSID=Broadcast
+  364  86.282365 6a:37:86:31:bf:c7 → 1e:47:0e:ed:d7:bf 802.11 291 Probe Request, SN=1281, FN=14, Flags=o.m....T.[Malformed Packet]
+  365  86.804569 f6:08:b1:c6:f7:7f → 19:fb:ff:8c:3d:d3 802.11 105 Fragmented IEEE 802.11 frame
+  366  86.945684 ab:d8:fe:36:9f:b4 → d1:e4:64:c6:ed:33 802.11 161 Probe Request, SN=1114, FN=1, Flags=opmPRM...
+  367  87.007948 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=502, FN=0, Flags=........C, SSID=Broadcast
+  368  87.019107 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=503, FN=0, Flags=........C, SSID=Broadcast
+  369  87.349026              →              802.11 39 Probe Request[Malformed Packet]
+  370  87.619796 26:26:18:de:02:62 → Broadcast    802.11 158 Probe Request, SN=3085, FN=0, Flags=........C, SSID=Broadcast
+  371  87.639859 26:26:18:de:02:62 → Broadcast    802.11 158 Probe Request, SN=3086, FN=0, Flags=........C, SSID=Broadcast
+  372  87.744676 1e:da:3c:e3:05:99 → 5f:59:25:ef:58:b9 802.11 288 Fragmented IEEE 802.11 frame
+  373  89.786291              →              802.11 39 Probe Request[Malformed Packet]
+  374  89.798456 e4:63:9d:87:d1:28 → 0d:a3:a1:df:e0:e2 802.11 57 Probe Request, SN=3114, FN=14, Flags=.p.PRM...
+  375  90.154721              →              802.11 39 Probe Request[Malformed Packet]
+  376  90.208399 1c:56:97:6d:d4:b7 → b2:21:5b:7d:3e:16 802.11 166 Probe Request, SN=2643, FN=5, Flags=opm.RMF..
+  377  90.494811 a9:ca:32:83:ce:b7 → 46:e7:76:7c:9d:ed 802.11 57 Probe Request, SN=2175, FN=15, Flags=...P..FT.[Malformed Packet]
+  378  90.836874 MurataMa_de:7b:56 → Broadcast    802.11 175 Probe Request, SN=1616, FN=0, Flags=........C, SSID=Broadcast
+  379  90.992465 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=587, FN=0, Flags=........C, SSID=Broadcast
+  380  91.002698 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=588, FN=0, Flags=........C, SSID=Broadcast
+  381  91.177016 SamsungE_c1:69:18 → Broadcast    802.11 175 Probe Request, SN=1981, FN=0, Flags=........C, SSID=Broadcast
+  382  91.177170 SamsungE_c1:69:18 → Broadcast    802.11 182 Probe Request, SN=1982, FN=0, Flags=........C, SSID=attwifi
+  383  91.195832 SamsungE_c1:69:18 → Broadcast    802.11 175 Probe Request, SN=1983, FN=0, Flags=........C, SSID=Broadcast
+  384  91.195936 SamsungE_c1:69:18 → Broadcast    802.11 182 Probe Request, SN=1984, FN=0, Flags=........C, SSID=attwifi
+  385  92.097422              →              802.11 39 Probe Request[Malformed Packet]
+  386  92.375201 ef:83:4f:c7:2f:a6 → bb:9c:95:27:81:bf 802.11 57 Probe Request, SN=2455, FN=4, Flags=.p..R..T.
+  387  92.493680 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=329, FN=0, Flags=........., SSID=Broadcast
+  388  93.573361              →              802.11 39 Probe Request[Malformed Packet]
+  389  93.762240              →              802.11 39 Probe Request[Malformed Packet]
+  390  93.889510 Apple_f3:6e:6a → Broadcast    802.11 167 Probe Request, SN=3961, FN=0, Flags=........C, SSID=eduroam
+  391  93.912174 Apple_f3:6e:6a → Broadcast    802.11 167 Probe Request, SN=3963, FN=0, Flags=........C, SSID=eduroam
+  392  94.034938 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=672, FN=0, Flags=........C, SSID=Broadcast
+  393  94.045540 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=673, FN=0, Flags=........C, SSID=Broadcast
+  394  94.056949 HuaweiTe_b0:59:64 → Broadcast    802.11 128 Probe Request, SN=2490, FN=0, Flags=........C, SSID=Broadcast
+  395  94.707184 Apple_16:92:ce → Broadcast    802.11 165 Probe Request, SN=1686, FN=0, Flags=........C, SSID=eduroam
+  396  94.717361 Apple_16:92:ce → Broadcast    802.11 165 Probe Request, SN=1687, FN=0, Flags=........C, SSID=eduroam
+  397  97.059605 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=755, FN=0, Flags=........C, SSID=Broadcast
+  398  97.069771 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=756, FN=0, Flags=........C, SSID=Broadcast
+  399  98.230141 IntelCor_24:e2:5d → Broadcast    802.11 93 Probe Request, SN=387, FN=0, Flags=........C, SSID=Broadcast
+  400  99.236008 Apple_3c:fd:ad → Broadcast    802.11 167 Probe Request, SN=3928, FN=0, Flags=........C, SSID=BU (802.1x)
+  401  99.246786 Apple_3c:fd:ad → Broadcast    802.11 167 Probe Request, SN=3929, FN=0, Flags=........C, SSID=BU (802.1x)
+  402  99.809968 1b:59:58:73:4a:62 → 29:04:ac:dd:58:01 802.11 57 Probe Request, SN=2463, FN=2, Flags=op.P..FT.[Malformed Packet]
+  403  99.963647 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3605, FN=0, Flags=........C, SSID=BU (802.1x)
+  404  99.973826 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3606, FN=0, Flags=........C, SSID=BU (802.1x)
+  405 100.048618 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=838, FN=0, Flags=........C, SSID=Broadcast
+  406 100.059701 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=839, FN=0, Flags=........C, SSID=Broadcast
+  407 100.093916 9f:a8:48:0a:7a:73 → 1b:52:2b:af:be:d3 802.11 211 Probe Request, SN=2365, FN=2, Flags=op.PRM...
+  408 100.096716              →              802.11 39 Probe Request[Malformed Packet]
+  409 101.763247 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=422, FN=0, Flags=........C, SSID=Broadcast
+  410 101.786327 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=423, FN=0, Flags=........C, SSID=Broadcast
+  411 101.845718 Apple_e5:80:cb → Broadcast    802.11 116 Probe Request, SN=1803, FN=0, Flags=........C, SSID=Broadcast
+  412 101.856882 Apple_e5:80:cb → Broadcast    802.11 116 Probe Request, SN=1804, FN=0, Flags=........C, SSID=Broadcast
+  413 102.817423              →              802.11 39 Probe Request[Malformed Packet]
+  414 102.887498 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3667, FN=0, Flags=........C, SSID=BU (802.1x)
+  415 102.897672 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3668, FN=0, Flags=........C, SSID=BU (802.1x)
+  416 103.341502 HuaweiTe_b0:59:64 → Broadcast    802.11 139 Probe Request, SN=2521, FN=0, Flags=........C, SSID=BU (802.1x)
+  417 103.350702 HuaweiTe_b0:59:64 → Broadcast    802.11 139 Probe Request, SN=2522, FN=0, Flags=........C, SSID=BU (802.1x)
+  418 103.997309 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=923, FN=0, Flags=........C, SSID=Broadcast
+  419 104.007857 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=924, FN=0, Flags=........C, SSID=Broadcast
+  420 104.284384 cd:d1:2d:9a:87:62 → 49:c8:f9:fb:88:d9 802.11 161 Fragmented IEEE 802.11 frame
+  421 104.323665 e0:e5:23:ad:2d:0d → dd:06:08:1f:ab:62 802.11 290 Fragmented IEEE 802.11 frame
+  422 105.394709 d4:a3:3d:b9:18:ed → Broadcast    802.11 169 Probe Request, SN=1990, FN=0, Flags=........C, SSID=BU (802.1x)
+  423 105.398606 SamsungE_0c:ce:f3 → Broadcast    802.11 93 Probe Request, SN=2040, FN=0, Flags=........C, SSID=Broadcast
+  424 105.457281 SamsungE_0c:ce:f3 → Broadcast    802.11 93 Probe Request, SN=2042, FN=0, Flags=........C, SSID=Broadcast
+  425 105.548551 d4:a3:3d:b9:18:ed → Broadcast    802.11 169 Probe Request, SN=1999, FN=0, Flags=........C, SSID=BU (802.1x)
+  426 105.672874 Apple_bf:f9:63 → Broadcast    802.11 169 Probe Request, SN=3925, FN=0, Flags=........C, SSID=BU (802.1x)
+  427 105.682979 Apple_bf:f9:63 → Broadcast    802.11 169 Probe Request, SN=3926, FN=0, Flags=........C, SSID=BU (802.1x)
+  428 106.441120 30:be:75:df:1c:48 → 75:e2:80:47:58:56 802.11 288 Fragmented IEEE 802.11 frame
+  429 107.022091 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1008, FN=0, Flags=........C, SSID=Broadcast
+  430 107.032833 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1009, FN=0, Flags=........C, SSID=Broadcast
+  431 107.129216 bb:b2:f6:74:25:67 → dc:75:3d:7e:2b:64 802.11 166 Fragmented IEEE 802.11 frame
+  432 107.527929 Apple_61:28:8c → Broadcast    802.11 184 Probe Request, SN=278, FN=0, Flags=........C, SSID=BU (802.1x)
+  433 108.253441 ea:cc:62:12:a5:46 → 7f:41:51:6f:59:3f 802.11 164 Probe Request, SN=3778, FN=2, Flags=.p.P..F..
+  434 108.462493 70:a2:4e:e2:47:48 → 61:ed:91:85:06:25 802.11 164 Probe Request, SN=1835, FN=15, Flags=o...R.FT.[Packet size limited during capture]
+  435 109.114782 Apple_93:9c:e7 → Broadcast    802.11 167 Probe Request, SN=3274, FN=0, Flags=........C, SSID=BU (802.1x)
+  436 109.124508 Apple_93:9c:e7 → Broadcast    802.11 167 Probe Request, SN=3275, FN=0, Flags=........C, SSID=BU (802.1x)
+  437 109.665042 6c:4d:73:68:8a:07 → Broadcast    802.11 169 Probe Request, SN=3697, FN=0, Flags=........C, SSID=BU (802.1x)
+  438 109.699041 6c:4d:73:68:8a:07 → Broadcast    802.11 169 Probe Request, SN=3698, FN=0, Flags=........C, SSID=BU (802.1x)
+  439 109.709212 6c:4d:73:68:8a:07 → Broadcast    802.11 169 Probe Request, SN=3699, FN=0, Flags=........C, SSID=BU (802.1x)
+  440 109.727260              →              802.11 39 Probe Request[Malformed Packet]
+  441 110.096763 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1089, FN=0, Flags=........C, SSID=Broadcast
+  442 110.107143 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1090, FN=0, Flags=........C, SSID=Broadcast
+  443 110.133578 Apple_bf:f9:63 → Broadcast    802.11 169 Probe Request, SN=3993, FN=0, Flags=........C, SSID=BU (802.1x)
+  444 110.143787 Apple_bf:f9:63 → Broadcast    802.11 169 Probe Request, SN=3994, FN=0, Flags=........C, SSID=BU (802.1x)
+  445 110.470983 Apple_67:79:d8 → Broadcast    802.11 160 Probe Request, SN=14, FN=0, Flags=........C, SSID=Broadcast
+  446 110.959734 12:7d:dc:32:44:ce → c3:a9:a0:23:8d:61 802.11 45 Probe Request[Malformed Packet]
+  447 111.068405 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=520, FN=0, Flags=........C, SSID=Broadcast
+  448 111.120241 Apple_0f:5d:8a → Broadcast    802.11 117 Probe Request, SN=522, FN=0, Flags=........C, SSID=Broadcast
+  449 111.244634 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3702, FN=0, Flags=........C, SSID=BU (802.1x)
+  450 111.253741 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3704, FN=0, Flags=........C, SSID=BU (802.1x)
+  451 111.402928 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3714, FN=0, Flags=........C, SSID=BU (802.1x)
+  452 111.412062 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3715, FN=0, Flags=........C, SSID=BU (802.1x)
+  453 111.678550 Apple_61:28:8c → Broadcast    802.11 184 Probe Request, SN=281, FN=0, Flags=........C, SSID=BU (802.1x)
+  454 112.014054 Apple_61:28:8c → Broadcast    802.11 184 Probe Request, SN=292, FN=0, Flags=........C, SSID=BU (802.1x)
+  455 112.431566 ac:a7:25:72:7c:bb → 1a:1f:1d:9b:1a:73 802.11 161 Probe Request, SN=2131, FN=0, Flags=o.mP..F..
+  456 113.120107 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1174, FN=0, Flags=........C, SSID=Broadcast
+  457 113.131288 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1175, FN=0, Flags=........C, SSID=Broadcast
+  458 113.243001 SamsungE_0c:ce:f3 → Broadcast    802.11 93 Probe Request, SN=2091, FN=0, Flags=........., SSID=Broadcast
+  459 113.657852 Apple_3c:fd:ad → Broadcast    802.11 167 Probe Request, SN=4023, FN=0, Flags=........C, SSID=BU (802.1x)
+  460 113.668394 Apple_3c:fd:ad → Broadcast    802.11 167 Probe Request, SN=4024, FN=0, Flags=........C, SSID=BU (802.1x)
+  461 113.991896 6a:fe:f6:6b:2c:9b → Broadcast    802.11 160 Probe Request, SN=3116, FN=0, Flags=........C, SSID=Broadcast
+  462 114.334685 45:d9:80:4b:75:e6 → e2:12:99:b0:95:5f 802.11 57 Fragmented IEEE 802.11 frame
+  463 115.528239 4d:97:8e:77:11:cd → c7:23:2c:db:ef:e6 802.11 288 Probe Request, SN=1275, FN=9, Flags=..m...F..[Malformed Packet]
+  464 116.091490 1e:15:3b:55:86:fb → 4f:99:90:36:72:03 802.11 57 Probe Request, SN=415, FN=15, Flags=.pmP.M.T.
+  465 116.573145 fa:80:3b:77:21:d0 → Broadcast    802.11 158 Probe Request, SN=2741, FN=0, Flags=........C, SSID=Broadcast
+  466 116.593836 fa:80:3b:77:21:d0 → Broadcast    802.11 158 Probe Request, SN=2742, FN=0, Flags=........C, SSID=Broadcast
+  467 116.678686 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3767, FN=0, Flags=........C, SSID=BU (802.1x)
+  468 116.689339 Apple_80:83:1b → Broadcast    802.11 169 Probe Request, SN=3769, FN=0, Flags=........C, SSID=BU (802.1x)
+  469 116.994224 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1258, FN=0, Flags=........C, SSID=Broadcast
+  470 117.006061 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1259, FN=0, Flags=........C, SSID=Broadcast
+  471 117.420567 c9:ba:e5:f7:77:e8 → ff:8c:a6:16:88:e8 802.11 160 Fragmented IEEE 802.11 frame
+  472 118.139360 8c:ef:09:eb:f1:da → dc:c4:5f:a4:bf:95 802.11 288 Fragmented IEEE 802.11 frame
+  473 118.772400 20:97:1f:8e:98:87 → e4:e4:85:8c:9e:44 802.11 57 Fragmented IEEE 802.11 frame
+  474 119.026975 MurataMa_de:7b:56 → Broadcast    802.11 186 Probe Request, SN=1637, FN=0, Flags=........C, SSID=BU (802.1x)
+  475 119.068475 MurataMa_de:7b:56 → Broadcast    802.11 186 Probe Request, SN=1638, FN=0, Flags=........C, SSID=BU (802.1x)
+  476 119.683905 fa:75:6b:77:ab:17 → Broadcast    802.11 158 Probe Request, SN=1339, FN=0, Flags=........C, SSID=Broadcast
+  477 119.704110 fa:75:6b:77:ab:17 → Broadcast    802.11 158 Probe Request, SN=1340, FN=0, Flags=........C, SSID=Broadcast
+  478 119.840347 25:a5:a8:38:72:f5 → b4:42:66:6f:07:79 802.11 57 Probe Request, SN=1836, FN=7, Flags=..mPR....
+  479 119.993818 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1343, FN=0, Flags=........C, SSID=Broadcast
+  480 120.003852 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1344, FN=0, Flags=........C, SSID=Broadcast
+  481 120.855164 3b:0c:36:cc:76:d3 → ff:ff:ff:ff:ff:4c 802.11 288 Probe Request, SN=1620, FN=12, Flags=....R..T.[Malformed Packet]
+  482 120.971855 93:c5:e1:50:e0:38 → 7c:cf:a5:0d:f7:23 802.11 160 Fragmented IEEE 802.11 frame
+  483 121.306727 ad:05:41:d9:f3:33 → 59:c0:65:78:1f:f8 802.11 169 Probe Request, SN=903, FN=12, Flags=o.mPR.FT., SSID=Ff\357\277\275S\357\277\275\357\277\275\357\277\275\357\277\275\357\277\275\357\277\275\037\357\277\275>-\357\277[Malformed Packet]
+  484 121.904878 66:d1:33:f8:4e:06 → Broadcast    802.11 160 Probe Request, SN=4025, FN=0, Flags=........C, SSID=Broadcast
+  485 122.256975              →              802.11 39 Probe Request[Malformed Packet]
+  486 123.060111 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1428, FN=0, Flags=........C, SSID=Broadcast
+  487 123.071155 Apple_78:2b:35 → Broadcast    802.11 103 Probe Request, SN=1429, FN=0, Flags=........C, SSID=Broadcast
+  488 124.209785 07:9b:bb:bd:ec:09 → b8:65:bd:a4:d3:e1 802.11 163 Probe Request, SN=1902, FN=10, Flags=opmPR....
